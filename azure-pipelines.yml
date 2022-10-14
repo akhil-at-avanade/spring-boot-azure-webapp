@@ -9,13 +9,13 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '{{ azureRmConnection.Id }}'
+  azureSubscription: 'Visual Studio Professional (aad2d60d-c193-4f6a-991a-a039e81b9d4c)'
 
   # Web app name
-  webAppName: '{{ webAppName }}'
+  webAppName: 'akhil-spring-boot-azure-webapp'
 
   # Environment name
-  environmentName: '{{ webAppName }}'
+  environmentName: 'akhil-spring-boot-azure-webapp'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
